@@ -166,7 +166,7 @@
     color: var(--token-Re3SCJIk_yyCbi);
   }
 }
-.link__oxwem {
+.catalogo {
   color: var(--token-Re3SCJIk_yyCbi);
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -174,7 +174,7 @@
   position: relative;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .link__oxwem {
+  .catalogo {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;

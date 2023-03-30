@@ -82,1283 +82,1349 @@ function PlasmicGestioneOrdini__RenderFunc(props) {
     screen: useScreenVariantscf27W7HxUbhqT()
   });
   return (
-    <React.Fragment>
-      <div className={projectcss.plasmic_page_wrapper}>
-        <div
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
-          data-plasmic-root={true}
-          data-plasmic-for-node={forNode}
-          className={classNames(
-            projectcss.all,
-            projectcss.root_reset,
-            projectcss.plasmic_default_styles,
-            projectcss.plasmic_mixins,
-            projectcss.plasmic_tokens,
-            plasmic_library_plasmic_color_type_css.plasmic_tokens,
-            sty.root
-          )}
-        >
-          {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox___8WamN)}>
-              {(
-                hasVariant(globalVariants, "screen", "mobile") ? true : true
-              ) ? (
-                <Header2
-                  className={classNames("__wab_instance", sty.header2__cmULb)}
-                />
-              ) : null}
-              <div className={classNames(projectcss.all, sty.freeBox__m4Pnr)}>
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"foreground2"}
-                  data-plasmic-override={overrides.foreground2}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.foreground2)}
-                >
+    <p.PlasmicPageGuard
+      minRole={null}
+      appId={"2GyyV1uN4xbnqKtJ7pjrQU"}
+      authorizeEndpoint={"https://studio.plasmic.app/authorize"}
+      canTriggerLogin={true}
+    >
+      <React.Fragment>
+        <div className={projectcss.plasmic_page_wrapper}>
+          <div
+            data-plasmic-name={"root"}
+            data-plasmic-override={overrides.root}
+            data-plasmic-root={true}
+            data-plasmic-for-node={forNode}
+            className={classNames(
+              projectcss.all,
+              projectcss.root_reset,
+              projectcss.plasmic_default_styles,
+              projectcss.plasmic_mixins,
+              projectcss.plasmic_tokens,
+              plasmic_library_plasmic_color_type_css.plasmic_tokens,
+              sty.root
+            )}
+          >
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox___8WamN)}>
+                {(
+                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                ) ? (
+                  <Header2
+                    className={classNames("__wab_instance", sty.header2__cmULb)}
+                  />
+                ) : null}
+                <div className={classNames(projectcss.all, sty.freeBox__m4Pnr)}>
                   <p.Stack
                     as={"div"}
+                    data-plasmic-name={"foreground2"}
+                    data-plasmic-override={overrides.foreground2}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__pW14B)}
-                  />
-                </p.Stack>
-              </div>
-            </div>
-          ) : null}
-          {true ? (
-            <div
-              data-plasmic-name={"header"}
-              data-plasmic-override={overrides.header}
-              className={classNames(projectcss.all, sty.header)}
-            >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__iC6OL)}
-              >
-                <div className={classNames(projectcss.all, sty.freeBox__nul5F)}>
-                  {true ? (
-                    <Header2
-                      className={classNames(
-                        "__wab_instance",
-                        sty.header2___6PVmT
-                      )}
-                    />
-                  ) : null}
-                </div>
-              </p.Stack>
-              {true ? (
-                <div className={classNames(projectcss.all, sty.freeBox__lKys)}>
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2__eh6Li
-                    )}
+                    className={classNames(projectcss.all, sty.foreground2)}
                   >
-                    {"Top Collections"}
-                  </h2>
-                </div>
-              ) : null}
-              {true ? (
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.columns__d7Yi5)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.column__ngiFh)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__rG8Bq
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__gslm)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: galinaNMiziNqvJx5MUnsplashjpgEcSqGTgu0W52S,
-                            fullWidth: 1920,
-                            fullHeight: 1278,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      onSale={true}
-                      price={"$65.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings___6ZR8N
-                          )}
-                          numReviews={"(45 Review)"}
-                        />
-                      }
-                      title={"Product"}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__nn2Vj)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__q7GxW
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__qjD)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: igorSonFvPxCqgtwcUnsplashjpgIrMvGDzufn8Kk,
-                            fullWidth: 640,
-                            fullHeight: 481,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      onSale={true}
-                      price={"$80.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings__uy7Or
-                          )}
-                          numReviews={"(45 Review)"}
-                        />
-                      }
-                      title={"Product"}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__vk2Ky)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__fOym
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__n4TWw)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: scottWebbORwRlTgBrPoUnsplashjpgP2BhvYxT2EpXaQ,
-                            fullWidth: 1920,
-                            fullHeight: 1280,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      price={"$40.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings___8YsOu
-                          )}
-                          numReviews={"(45 Review)"}
-                        />
-                      }
-                      title={"Product"}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__vdTRn)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__iyimj
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__r80WX)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: freddieMarriageUcfKyTanLuUnsplashjpgSug2Aysmy4PT9,
-                            fullWidth: 640,
-                            fullHeight: 427,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      onSale={true}
-                      price={"$100.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings__zEb93
-                          )}
-                          numReviews={"(45 Review)"}
-                        />
-                      }
-                      title={"Product"}
-                    />
-                  </div>
-                </p.Stack>
-              ) : null}
-              {true ? (
-                <FeatureItem
-                  data-plasmic-name={"featureItem"}
-                  data-plasmic-override={overrides.featureItem}
-                  className={classNames("__wab_instance", sty.featureItem)}
-                />
-              ) : null}
-              {true ? (
-                <div className={classNames(projectcss.all, sty.freeBox___7Ai7)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___90ILk
-                    )}
-                  >
-                    {"Featured Products"}
-                  </div>
-                </div>
-              ) : null}
-              {true ? (
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.columns__eSAlW)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.column__qu91V)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__zHblN
-                      )}
-                      price={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__lu3Ch
-                          )}
-                        >
-                          {"$160.00"}
-                        </div>
-                      }
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings__mPRyf
-                          )}
-                          numReviews={"(12 Review)"}
-                          stars={"two"}
-                        />
-                      }
-                      title={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__rp3
-                          )}
-                        >
-                          {"Designed Sofa"}
-                        </div>
-                      }
-                      withReviews={true}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__xWDb8)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__flc2G
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__vhjya)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: f2NTxTx2MaIc83Th,
-                            fullWidth: 270,
-                            fullHeight: 310,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      price={"$200.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings__eOpA7
-                          )}
-                          stars={"four"}
-                        />
-                      }
-                      title={"Dining Table"}
-                      withReviews={true}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__noEve)}
-                  >
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard___0W4Q
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img___3Thcd)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: f3QkcmvqYxHP4IK,
-                            fullWidth: 270,
-                            fullHeight: 310,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      price={"$100.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings__f9XaE
-                          )}
-                          numReviews={"(23 Review)"}
-                          stars={"five"}
-                        />
-                      }
-                      title={"Chair and Table"}
-                      withReviews={true}
-                    />
-                  </div>
-                  <div className={classNames(projectcss.all, sty.column__fsLv)}>
-                    <ProductCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.productCard__lffH
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__h8Cph)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: f4SaIjz82E8CVBx,
-                            fullWidth: 270,
-                            fullHeight: 310,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                      price={"$299.00"}
-                      ratings={
-                        <Ratings
-                          className={classNames(
-                            "__wab_instance",
-                            sty.ratings__ewLKf
-                          )}
-                          numReviews={"(35 Review)"}
-                        />
-                      }
-                      title={"Modern Arm Chair"}
-                      withReviews={true}
-                    />
-                  </div>
-                </p.Stack>
-              ) : null}
-              {true ? (
-                <div className={classNames(projectcss.all, sty.freeBox__hlkl)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__uMy0I
-                    )}
-                  >
-                    {"Latest Blog"}
-                  </div>
-                </div>
-              ) : null}
-              {true ? (
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.columns__rEpu9)}
-                >
-                  <div className={classNames(projectcss.all, sty.column__wstD)}>
-                    <BlogPost
-                      className={classNames(
-                        "__wab_instance",
-                        sty.blogPost__woZz
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img___98YXd)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: b14B1JYr2A7Rzllu,
-                            fullWidth: 370,
-                            fullHeight: 250,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__neE99)}
-                  >
-                    <BlogPost
-                      className={classNames(
-                        "__wab_instance",
-                        sty.blogPost__j69AH
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__xfmsO)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: b2W7N7NGOmbXw1KV,
-                            fullWidth: 370,
-                            fullHeight: 250,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__tmfMr)}
-                  >
-                    <BlogPost
-                      className={classNames(
-                        "__wab_instance",
-                        sty.blogPost__uunNx
-                      )}
-                      image={
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__mwoO)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"none"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: b3EKschWy364XeXy,
-                            fullWidth: 370,
-                            fullHeight: 250,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      }
-                    />
-                  </div>
-                </p.Stack>
-              ) : null}
-              {true ? (
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__am9SI)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__tFwZk)}
-                    displayHeight={"60px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"90px"}
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__orxEd)}
-                    displayHeight={"60px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"91px"}
-                    src={{
-                      src: imageNRu8G82XNgF0Pk,
-                      fullWidth: 91,
-                      fullHeight: 60,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__iZnWg)}
-                    displayHeight={"60px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"98px"}
-                    src={{
-                      src: kappaTrboBxmt9M7Ie5,
-                      fullWidth: 98,
-                      fullHeight: 60,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__qT2Tx)}
-                    displayHeight={"60px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"124px"}
-                    src={{
-                      src: lacosteTEWbuNfm5Ff8Xp,
-                      fullWidth: 124,
-                      fullHeight: 60,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__ujnVy)}
-                    displayHeight={"60px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"125px"}
-                    src={{
-                      src: levisXnOQSlkr9SjGe,
-                      fullWidth: 125,
-                      fullHeight: 60,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </p.Stack>
-              ) : null}
-              {true ? (
-                <Footer
-                  className={classNames("__wab_instance", sty.footer__vCgPd)}
-                />
-              ) : null}
-            </div>
-          ) : null}
-          {true ? (
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"bigPlants"}
-              data-plasmic-override={overrides.bigPlants}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.bigPlants)}
-            >
-              {true ? (
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___413T4)}
-                >
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2___5OoHz
-                    )}
-                  >
-                    {"Big plants"}
-                  </h2>
-                </p.Stack>
-              ) : null}
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns___69Bkr)}
-              >
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column___5G71J)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__iFmex)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant6JpgSmvOu1Xxq5VnGt,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__xgIwU)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__hvYd)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__ficlA)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link___1Zf0L
-                      )}
-                    >
-                      {"Donec finibus"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__vMEe
-                      )}
-                    >
-                      {"bigplants"}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5__uCHoL
-                      )}
-                    >
-                      {"$100.00"}
-                    </h5>
-                  </div>
-                </p.Stack>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__gg5X)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__x9F0)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant1Jpg24LuZtbCwp7W2,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__w0F6S)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__bNvP)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__ogw8B)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link___2WQ
-                      )}
-                    >
-                      {"Nulla suscipit"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__p7Qnl
-                      )}
-                    >
-                      {"bigplants "}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5___4LsJc
-                      )}
-                    >
-                      {"$49.40 "}
-                    </h5>
-                  </div>
-                </p.Stack>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__adYid)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__dby5D)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant7JpgYuSlZZhiiBuc0,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox___67D2)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__nloiQ)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__mhywL)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__acz9Q
-                      )}
-                    >
-                      {"Sed consectetur"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__sQnL
-                      )}
-                    >
-                      {"bigplants "}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5__xMIu
-                      )}
-                    >
-                      {"$18.40 "}
-                    </h5>
-                  </div>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__hne9Q)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant5JpgBQJxNrXugOtY,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__uwUps)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__usure)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__ds7Ff)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__uno97
-                      )}
-                    >
-                      {"Vestibulum eget"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__mzPg9
-                      )}
-                    >
-                      {"bigplants "}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5__auLzx
-                      )}
-                    >
-                      {"$220.40 "}
-                    </h5>
-                  </div>
-                </p.Stack>
-              </p.Stack>
-            </p.Stack>
-          ) : null}
-          {true ? (
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"cactuses"}
-              data-plasmic-override={overrides.cactuses}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.cactuses)}
-            >
-              {true ? (
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__ir1Z)}
-                >
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2__nHoI1
-                    )}
-                  >
-                    {"Cactuses"}
-                  </h2>
-                </p.Stack>
-              ) : null}
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns__eItcY)}
-              >
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__km1Fd)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img___0Plcu)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant41JpgRLnicAZhoI7Gtg,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__nYlYl)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg___3KdEc)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__o47C)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__f1Yvq
-                      )}
-                    >
-                      {"Cras molestie"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__nK67K
-                      )}
-                    >
-                      {"cactuses "}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5___3YFgo
-                      )}
-                    >
-                      {"$24.99"}
-                    </h5>
-                  </div>
-                </p.Stack>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__vypEn)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img___6KsIt)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant31JpgRWGlkbLwKqsXk2,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___5TYOv
-                      )}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__lSmun)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__nVoce)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__z70
-                      )}
-                    >
-                      {"Curabitur eu tempor"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__p0Z4J
-                      )}
-                    >
-                      {"Cactuses"}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5__p0U2
-                      )}
-                    >
-                      {"$49.40 "}
-                    </h5>
-                  </div>
-                </p.Stack>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__y3Nnn)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__tCs85)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant9Webp3TPkYmbEMcCrq,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__dcQi1)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__k9CKw)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__l5WtM)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__y0L20
-                      )}
-                    >
-                      {"Fusce sagittis"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___3HGl1
-                      )}
-                    >
-                      {"Fusce sagittis"}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5__gK26
-                      )}
-                    >
-                      {"$49.40 "}
-                    </h5>
-                  </div>
-                </p.Stack>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__zIrz4)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__zkn2W)}
-                    displayHeight={"270px /* plasmic-token: FrVxrO3xIVC8IA */"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: plant2WebpXdOep6UpMySuvS,
-                      fullWidth: 400,
-                      fullHeight: 400,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__xw60Z)}
-                    >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__fvV2Y)}
-                        role={"img"}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__hogIk)}
-                  >
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__in9TJ
-                      )}
-                    >
-                      {"Integer porta"}
-                    </a>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__qhovd
-                      )}
-                    >
-                      {"Cactuses"}
-                    </div>
-                    <h5
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h5,
-                        projectcss.__wab_text,
-                        sty.h5__q3Bi4
-                      )}
-                    >
-                      {"$49.40 "}
-                    </h5>
-                  </div>
-                </p.Stack>
-              </p.Stack>
-            </p.Stack>
-          ) : null}
-          {true ? (
-            <div
-              data-plasmic-name={"weLove"}
-              data-plasmic-override={overrides.weLove}
-              className={classNames(projectcss.all, sty.weLove)}
-            >
-              {true ? (
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___8Bedk)}
-                >
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.columns__pVuqO)}
-                  />
-                </div>
-              ) : null}
-            </div>
-          ) : null}
-          {true ? (
-            <div
-              data-plasmic-name={"weThink"}
-              data-plasmic-override={overrides.weThink}
-              className={classNames(projectcss.all, sty.weThink)}
-            >
-              {true ? (
-                <div className={classNames(projectcss.all, sty.freeBox__bfggB)}>
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.columns__oQ43C)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column__uOjKb)}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__pW14B)}
                     />
                   </p.Stack>
                 </div>
-              ) : null}
-            </div>
-          ) : null}
-          <Footer className={classNames("__wab_instance", sty.footer__ow88A)} />
+              </div>
+            ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"header"}
+                data-plasmic-override={overrides.header}
+                className={classNames(projectcss.all, sty.header)}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__iC6OL)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__nul5F)}
+                  >
+                    {true ? (
+                      <Header2
+                        className={classNames(
+                          "__wab_instance",
+                          sty.header2___6PVmT
+                        )}
+                      />
+                    ) : null}
+                  </div>
+                </p.Stack>
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__lKys)}
+                  >
+                    <h2
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2__eh6Li
+                      )}
+                    >
+                      {"Top Collections"}
+                    </h2>
+                  </div>
+                ) : null}
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.columns__d7Yi5)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__ngiFh)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__rG8Bq
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__gslm)}
+                            displayHeight={"100%"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: galinaNMiziNqvJx5MUnsplashjpgEcSqGTgu0W52S,
+                              fullWidth: 1920,
+                              fullHeight: 1278,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        onSale={true}
+                        price={"$65.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings___6ZR8N
+                            )}
+                            numReviews={"(45 Review)"}
+                          />
+                        }
+                        title={"Product"}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__nn2Vj)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__q7GxW
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__qjD)}
+                            displayHeight={"100%"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: igorSonFvPxCqgtwcUnsplashjpgIrMvGDzufn8Kk,
+                              fullWidth: 640,
+                              fullHeight: 481,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        onSale={true}
+                        price={"$80.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings__uy7Or
+                            )}
+                            numReviews={"(45 Review)"}
+                          />
+                        }
+                        title={"Product"}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__vk2Ky)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__fOym
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__n4TWw)}
+                            displayHeight={"100%"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: scottWebbORwRlTgBrPoUnsplashjpgP2BhvYxT2EpXaQ,
+                              fullWidth: 1920,
+                              fullHeight: 1280,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        price={"$40.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings___8YsOu
+                            )}
+                            numReviews={"(45 Review)"}
+                          />
+                        }
+                        title={"Product"}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__vdTRn)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__iyimj
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__r80WX)}
+                            displayHeight={"100%"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: freddieMarriageUcfKyTanLuUnsplashjpgSug2Aysmy4PT9,
+                              fullWidth: 640,
+                              fullHeight: 427,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        onSale={true}
+                        price={"$100.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings__zEb93
+                            )}
+                            numReviews={"(45 Review)"}
+                          />
+                        }
+                        title={"Product"}
+                      />
+                    </div>
+                  </p.Stack>
+                ) : null}
+                {true ? (
+                  <FeatureItem
+                    data-plasmic-name={"featureItem"}
+                    data-plasmic-override={overrides.featureItem}
+                    className={classNames("__wab_instance", sty.featureItem)}
+                  />
+                ) : null}
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___7Ai7)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___90ILk
+                      )}
+                    >
+                      {"Featured Products"}
+                    </div>
+                  </div>
+                ) : null}
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.columns__eSAlW)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__qu91V)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__zHblN
+                        )}
+                        price={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__lu3Ch
+                            )}
+                          >
+                            {"$160.00"}
+                          </div>
+                        }
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings__mPRyf
+                            )}
+                            numReviews={"(12 Review)"}
+                            stars={"two"}
+                          />
+                        }
+                        title={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__rp3
+                            )}
+                          >
+                            {"Designed Sofa"}
+                          </div>
+                        }
+                        withReviews={true}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__xWDb8)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__flc2G
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__vhjya)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: f2NTxTx2MaIc83Th,
+                              fullWidth: 270,
+                              fullHeight: 310,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        price={"$200.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings__eOpA7
+                            )}
+                            stars={"four"}
+                          />
+                        }
+                        title={"Dining Table"}
+                        withReviews={true}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__noEve)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard___0W4Q
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img___3Thcd)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: f3QkcmvqYxHP4IK,
+                              fullWidth: 270,
+                              fullHeight: 310,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        price={"$100.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings__f9XaE
+                            )}
+                            numReviews={"(23 Review)"}
+                            stars={"five"}
+                          />
+                        }
+                        title={"Chair and Table"}
+                        withReviews={true}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__fsLv)}
+                    >
+                      <ProductCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.productCard__lffH
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__h8Cph)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: f4SaIjz82E8CVBx,
+                              fullWidth: 270,
+                              fullHeight: 310,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                        price={"$299.00"}
+                        ratings={
+                          <Ratings
+                            className={classNames(
+                              "__wab_instance",
+                              sty.ratings__ewLKf
+                            )}
+                            numReviews={"(35 Review)"}
+                          />
+                        }
+                        title={"Modern Arm Chair"}
+                        withReviews={true}
+                      />
+                    </div>
+                  </p.Stack>
+                ) : null}
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__hlkl)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__uMy0I
+                      )}
+                    >
+                      {"Latest Blog"}
+                    </div>
+                  </div>
+                ) : null}
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.columns__rEpu9)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__wstD)}
+                    >
+                      <BlogPost
+                        className={classNames(
+                          "__wab_instance",
+                          sty.blogPost__woZz
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img___98YXd)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: b14B1JYr2A7Rzllu,
+                              fullWidth: 370,
+                              fullHeight: 250,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__neE99)}
+                    >
+                      <BlogPost
+                        className={classNames(
+                          "__wab_instance",
+                          sty.blogPost__j69AH
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__xfmsO)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: b2W7N7NGOmbXw1KV,
+                              fullWidth: 370,
+                              fullHeight: 250,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__tmfMr)}
+                    >
+                      <BlogPost
+                        className={classNames(
+                          "__wab_instance",
+                          sty.blogPost__uunNx
+                        )}
+                        image={
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__mwoO)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"none"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: b3EKschWy364XeXy,
+                              fullWidth: 370,
+                              fullHeight: 250,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        }
+                      />
+                    </div>
+                  </p.Stack>
+                ) : null}
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__am9SI)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__tFwZk)}
+                      displayHeight={"60px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"90px"}
+                    />
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__orxEd)}
+                      displayHeight={"60px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"91px"}
+                      src={{
+                        src: imageNRu8G82XNgF0Pk,
+                        fullWidth: 91,
+                        fullHeight: 60,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__iZnWg)}
+                      displayHeight={"60px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"98px"}
+                      src={{
+                        src: kappaTrboBxmt9M7Ie5,
+                        fullWidth: 98,
+                        fullHeight: 60,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__qT2Tx)}
+                      displayHeight={"60px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"124px"}
+                      src={{
+                        src: lacosteTEWbuNfm5Ff8Xp,
+                        fullWidth: 124,
+                        fullHeight: 60,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__ujnVy)}
+                      displayHeight={"60px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"125px"}
+                      src={{
+                        src: levisXnOQSlkr9SjGe,
+                        fullWidth: 125,
+                        fullHeight: 60,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </p.Stack>
+                ) : null}
+                {true ? (
+                  <Footer
+                    className={classNames("__wab_instance", sty.footer__vCgPd)}
+                  />
+                ) : null}
+              </div>
+            ) : null}
+            {true ? (
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"bigPlants"}
+                data-plasmic-override={overrides.bigPlants}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.bigPlants)}
+              >
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___413T4)}
+                  >
+                    <h2
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2___5OoHz
+                      )}
+                    >
+                      {"Big plants"}
+                    </h2>
+                  </p.Stack>
+                ) : null}
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.columns___69Bkr)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column___5G71J)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__iFmex)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant6JpgSmvOu1Xxq5VnGt,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__xgIwU
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__hvYd)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__ficlA)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___1Zf0L
+                        )}
+                      >
+                        {"Donec finibus"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__vMEe
+                        )}
+                      >
+                        {"bigplants"}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5__uCHoL
+                        )}
+                      >
+                        {"$100.00"}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__gg5X)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__x9F0)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant1Jpg24LuZtbCwp7W2,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__w0F6S
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__bNvP)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__ogw8B)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___2WQ
+                        )}
+                      >
+                        {"Nulla suscipit"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__p7Qnl
+                        )}
+                      >
+                        {"bigplants "}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5___4LsJc
+                        )}
+                      >
+                        {"$49.40 "}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__adYid)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__dby5D)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant7JpgYuSlZZhiiBuc0,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___67D2
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__nloiQ)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__mhywL)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__acz9Q
+                        )}
+                      >
+                        {"Sed consectetur"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sQnL
+                        )}
+                      >
+                        {"bigplants "}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5__xMIu
+                        )}
+                      >
+                        {"$18.40 "}
+                      </h5>
+                    </div>
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__hne9Q)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant5JpgBQJxNrXugOtY,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__uwUps
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__usure)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__ds7Ff)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__uno97
+                        )}
+                      >
+                        {"Vestibulum eget"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__mzPg9
+                        )}
+                      >
+                        {"bigplants "}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5__auLzx
+                        )}
+                      >
+                        {"$220.40 "}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+              </p.Stack>
+            ) : null}
+            {true ? (
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"cactuses"}
+                data-plasmic-override={overrides.cactuses}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.cactuses)}
+              >
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__ir1Z)}
+                  >
+                    <h2
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2__nHoI1
+                      )}
+                    >
+                      {"Cactuses"}
+                    </h2>
+                  </p.Stack>
+                ) : null}
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.columns__eItcY)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__km1Fd)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img___0Plcu)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant41JpgRLnicAZhoI7Gtg,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__nYlYl
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___3KdEc
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__o47C)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__f1Yvq
+                        )}
+                      >
+                        {"Cras molestie"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__nK67K
+                        )}
+                      >
+                        {"cactuses "}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5___3YFgo
+                        )}
+                      >
+                        {"$24.99"}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__vypEn)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img___6KsIt)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant31JpgRWGlkbLwKqsXk2,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___5TYOv
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__lSmun)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__nVoce)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__z70
+                        )}
+                      >
+                        {"Curabitur eu tempor"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__p0Z4J
+                        )}
+                      >
+                        {"Cactuses"}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5__p0U2
+                        )}
+                      >
+                        {"$49.40 "}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__y3Nnn)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__tCs85)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant9Webp3TPkYmbEMcCrq,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__dcQi1
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__k9CKw)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__l5WtM)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__y0L20
+                        )}
+                      >
+                        {"Fusce sagittis"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___3HGl1
+                        )}
+                      >
+                        {"Fusce sagittis"}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5__gK26
+                        )}
+                      >
+                        {"$49.40 "}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__zIrz4)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__zkn2W)}
+                      displayHeight={
+                        "270px /* plasmic-token: FrVxrO3xIVC8IA */"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: plant2WebpXdOep6UpMySuvS,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__xw60Z
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__fvV2Y)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__hogIk)}
+                    >
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__in9TJ
+                        )}
+                      >
+                        {"Integer porta"}
+                      </a>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__qhovd
+                        )}
+                      >
+                        {"Cactuses"}
+                      </div>
+                      <h5
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h5,
+                          projectcss.__wab_text,
+                          sty.h5__q3Bi4
+                        )}
+                      >
+                        {"$49.40 "}
+                      </h5>
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+              </p.Stack>
+            ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"weLove"}
+                data-plasmic-override={overrides.weLove}
+                className={classNames(projectcss.all, sty.weLove)}
+              >
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___8Bedk)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.columns__pVuqO)}
+                    />
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"weThink"}
+                data-plasmic-override={overrides.weThink}
+                className={classNames(projectcss.all, sty.weThink)}
+              >
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__bfggB)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.columns__oQ43C)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.column__uOjKb
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
+            <Footer
+              className={classNames("__wab_instance", sty.footer__ow88A)}
+            />
+          </div>
         </div>
-      </div>
-    </React.Fragment>
+      </React.Fragment>
+    </p.PlasmicPageGuard>
   );
 }
 

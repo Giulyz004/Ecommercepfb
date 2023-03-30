@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -32,7 +32,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
@@ -874,6 +875,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.248",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.248/dist/plasmic.schema.json"
+  "cliVersion": "0.1.249",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.249/dist/plasmic.schema.json"
 }

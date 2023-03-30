@@ -169,13 +169,52 @@ function PlasmicHeader__RenderFunc(props) {
               {"Gestione Ordini"}
             </a>
             <a
+              data-plasmic-name={"catalogo"}
+              data-plasmic-override={overrides.catalogo}
               className={classNames(
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__oxwem
+                sty.catalogo
               )}
-              href={`/catalogo`}
+              href={"/catalogo"}
+              onClick={async event => {
+                const $steps = {};
+                $steps["setVariable"] = true
+                  ? (() => {
+                      const actionArgs = {};
+                      return __wrapUserFunction(
+                        {
+                          type: "InteractionLoc",
+                          actionName: "updateVariable",
+                          interactionUuid: "JZpE5nu0A",
+                          componentUuid: "Qc-AaHBNiJ4q-"
+                        },
+                        () =>
+                          (({ variable, value, startIndex, deleteCount }) => {
+                            const { objRoot, variablePath } = variable;
+                            undefined;
+                          })?.apply(null, [actionArgs]),
+                        actionArgs
+                      );
+                    })()
+                  : undefined;
+                if (
+                  typeof $steps["setVariable"] === "object" &&
+                  typeof $steps["setVariable"].then === "function"
+                ) {
+                  $steps["setVariable"] = await __wrapUserPromise(
+                    {
+                      type: "InteractionLoc",
+                      actionName: "updateVariable",
+                      interactionUuid: "JZpE5nu0A",
+                      componentUuid: "Qc-AaHBNiJ4q-"
+                    },
+                    $steps["setVariable"]
+                  );
+                }
+              }}
+              target={undefined}
             >
               {"Catalogo"}
             </a>
@@ -264,8 +303,9 @@ function PlasmicHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "menuButton", "iconLink", "text"],
+  root: ["root", "menuButton", "catalogo", "iconLink", "text"],
   menuButton: ["menuButton"],
+  catalogo: ["catalogo"],
   iconLink: ["iconLink", "text"],
   text: ["text"]
 };
@@ -304,6 +344,7 @@ export const PlasmicHeader = Object.assign(
   {
     // Helper components rendering sub-elements
     menuButton: makeNodeComponent("menuButton"),
+    catalogo: makeNodeComponent("catalogo"),
     iconLink: makeNodeComponent("iconLink"),
     text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicHeader
