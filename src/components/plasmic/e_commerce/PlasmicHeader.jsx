@@ -178,42 +178,6 @@ function PlasmicHeader__RenderFunc(props) {
                 sty.catalogo
               )}
               href={"/catalogo"}
-              onClick={async event => {
-                const $steps = {};
-                $steps["setVariable"] = true
-                  ? (() => {
-                      const actionArgs = {};
-                      return __wrapUserFunction(
-                        {
-                          type: "InteractionLoc",
-                          actionName: "updateVariable",
-                          interactionUuid: "JZpE5nu0A",
-                          componentUuid: "Qc-AaHBNiJ4q-"
-                        },
-                        () =>
-                          (({ variable, value, startIndex, deleteCount }) => {
-                            const { objRoot, variablePath } = variable;
-                            undefined;
-                          })?.apply(null, [actionArgs]),
-                        actionArgs
-                      );
-                    })()
-                  : undefined;
-                if (
-                  typeof $steps["setVariable"] === "object" &&
-                  typeof $steps["setVariable"].then === "function"
-                ) {
-                  $steps["setVariable"] = await __wrapUserPromise(
-                    {
-                      type: "InteractionLoc",
-                      actionName: "updateVariable",
-                      interactionUuid: "JZpE5nu0A",
-                      componentUuid: "Qc-AaHBNiJ4q-"
-                    },
-                    $steps["setVariable"]
-                  );
-                }
-              }}
               target={undefined}
             >
               {"Catalogo"}
