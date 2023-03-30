@@ -1,0 +1,220 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 200px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.svg__el59T {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+}
+.svgstars_zero__el59TQkr0L {
+  display: none;
+}
+.svg__oiXcR {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__oiXcRQkr0L {
+  display: none;
+}
+.svgstars_one__oiXcRo9WbA {
+  display: none;
+}
+.svg__jRdma {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__jRdmaQkr0L {
+  display: none;
+}
+.svgstars_one__jRdmAo9WbA {
+  display: none;
+}
+.svgstars_two__jRdmalWyyw {
+  display: none;
+}
+.svg__eGrSm {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__eGrSmQkr0L {
+  display: none;
+}
+.svgstars_one__eGrSmo9WbA {
+  display: none;
+}
+.svgstars_two__eGrSmLWyyw {
+  display: none;
+}
+.svgstars_three__eGrSmAJuk {
+  display: none;
+}
+.svg__mzqZq {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__mzqZqQkr0L {
+  display: none;
+}
+.svgstars_one__mzqZQo9WbA {
+  display: none;
+}
+.svgstars_two__mzqZqlWyyw {
+  display: none;
+}
+.svgstars_three__mzqZqAJuk {
+  display: none;
+}
+.svgstars_four__mzqZqTjndY {
+  display: none;
+}
+.svg___0KXhU {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_one___0KXhUo9WbA {
+  display: none;
+}
+.svgstars_two___0KXhUlWyyw {
+  display: none;
+}
+.svgstars_three___0KXhUAJuk {
+  display: none;
+}
+.svgstars_four___0KXhUTjndY {
+  display: none;
+}
+.svgstars_five___0KXhUk1Dxe {
+  display: none;
+}
+.svg__vvEtk {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_two__vvEtkLWyyw {
+  display: none;
+}
+.svgstars_three__vvEtkAJuk {
+  display: none;
+}
+.svgstars_four__vvEtkTjndY {
+  display: none;
+}
+.svgstars_five__vvEtkK1Dxe {
+  display: none;
+}
+.svg__lP4Yt {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_three__lP4YtAJuk {
+  display: none;
+}
+.svgstars_four__lP4YtTjndY {
+  display: none;
+}
+.svgstars_five__lP4YtK1Dxe {
+  display: none;
+}
+.svg___4UjFe {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_four___4UjFeTjndY {
+  display: none;
+}
+.svgstars_five___4UjFeK1Dxe {
+  display: none;
+}
+.svg__yp67N {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_five__yp67NK1Dxe {
+  display: none;
+}
+.slotTargetNumReviews {
+  font-size: 14px;
+  color: var(--token-SnN7D4tsVcE8wy);
+}
