@@ -105,7 +105,7 @@ function PlasmicHeader2__RenderFunc(props) {
               projectcss.__wab_text,
               sty.link___4QSB
             )}
-            href={`/home`}
+            href={`/`}
           >
             {"Home"}
           </a>

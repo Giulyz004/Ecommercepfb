@@ -118,7 +118,7 @@ function PlasmicFooter__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.link___5WUmx
                 )}
-                href={`/home`}
+                href={`/`}
               >
                 {"Home"}
               </a>

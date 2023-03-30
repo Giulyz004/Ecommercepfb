@@ -147,13 +147,15 @@ function PlasmicHeader__RenderFunc(props) {
             })}
           >
             <a
+              data-plasmic-name={"home"}
+              data-plasmic-override={overrides.home}
               className={classNames(
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__w06Bp
+                sty.home
               )}
-              href={`/home`}
+              href={`/`}
             >
               {"Home"}
             </a>
@@ -267,8 +269,9 @@ function PlasmicHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "menuButton", "catalogo", "iconLink", "text"],
+  root: ["root", "menuButton", "home", "catalogo", "iconLink", "text"],
   menuButton: ["menuButton"],
+  home: ["home"],
   catalogo: ["catalogo"],
   iconLink: ["iconLink", "text"],
   text: ["text"]
@@ -308,6 +311,7 @@ export const PlasmicHeader = Object.assign(
   {
     // Helper components rendering sub-elements
     menuButton: makeNodeComponent("menuButton"),
+    home: makeNodeComponent("home"),
     catalogo: makeNodeComponent("catalogo"),
     iconLink: makeNodeComponent("iconLink"),
     text: makeNodeComponent("text"),
